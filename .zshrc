@@ -39,8 +39,8 @@ function create() {
 
   # venv
   # source $PATHTOGITHUBAUTO/venv/bin/activate
-  python3 $PATHTOGITHUBAUTO/create.py $1
-  echo $1
+  python3 $PATHTOGITHUBAUTO/create.py "$1"
+  echo "$1"
   # deactivate
 
   # github procedure
