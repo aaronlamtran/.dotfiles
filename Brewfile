@@ -8,8 +8,13 @@ tap "newrelic/tap"
 brew "k6"
 brew "mongosh"
 brew "mysql", restart_service: true
+brew "node@14"
 brew "postgresql", restart_service: true
 brew "zsh"
 brew "heroku/brew/heroku"
 brew "mongodb/brew/mongodb-community"
 brew "newrelic/tap/newrelic-infra-agent"
+cask "alfred"
+cask "iterm2"
+cask "karabiner-elements"
+cask "numi"

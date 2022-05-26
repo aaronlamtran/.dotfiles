@@ -23,7 +23,7 @@ alias restart-terminal='exec zsh -l'
 alias gc='git commit'
 alias print-function='echo "declare -f create <bash func>"'
 alias create-sym-link='echo "mv <.file> .dotfiles THEN run ln -s ~/.dotfiles/<.file> ~/<.file>"'
-
+alias update-homebrew-file='brew bundle dump --force'
 
 
 export PATHTOGITHUBAUTO="/Users/aarontran/Documents/Hack/create-project-github-automation"
