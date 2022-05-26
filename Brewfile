@@ -1,0 +1,15 @@
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "mongodb/brew"
+tap "newrelic/tap"
+brew "k6"
+brew "mongosh"
+brew "mysql", restart_service: true
+brew "postgresql", restart_service: true
+brew "zsh"
+brew "heroku/brew/heroku"
+brew "mongodb/brew/mongodb-community"
+brew "newrelic/tap/newrelic-infra-agent"
