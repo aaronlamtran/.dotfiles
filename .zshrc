@@ -1,5 +1,6 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/aarontran/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 export ZSH="/Users/aarontran/.oh-my-zsh"
 
@@ -13,6 +14,7 @@ HIST_STAMPS="mm/dd/yyyy"
 source $ZSH/oh-my-zsh.sh
 
 # aliases
+alias sleep='pmset sleepnow'
 alias hr='cd ~/Documents/Hack'
 alias gs="git status"
 alias list-node-module-size="find . -name "node_modules" -type d -prune -print | xargs du -chs"

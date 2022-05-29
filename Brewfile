@@ -9,7 +9,7 @@ brew "k6"
 brew "mongosh"
 brew "mysql", restart_service: true
 brew "node@14"
-brew "postgresql", restart_service: true
+brew "postgresql"
 brew "zsh"
 brew "heroku/brew/heroku"
 brew "mongodb/brew/mongodb-community"
