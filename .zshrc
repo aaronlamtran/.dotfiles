@@ -1,4 +1,4 @@
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/aarontran/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
