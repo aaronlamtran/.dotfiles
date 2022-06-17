@@ -6,6 +6,7 @@ tap "homebrew/services"
 tap "mongodb/brew"
 tap "newrelic/tap"
 tap "ngrok/ngrok"
+brew "black"
 brew "k6"
 brew "mongosh"
 brew "mysql", restart_service: true
