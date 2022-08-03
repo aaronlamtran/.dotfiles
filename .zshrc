@@ -28,6 +28,7 @@ alias update-homebrew-file='brew bundle dump --force'
 alias screenshots='cd $HOME/Desktop/Screenshots && open `pwd`'
 alias edit-rc='code ~/.zshrc'
 alias check-switch-transaction='/usr/bin/python3 $HOME/Documents/Hack/atm-track/app.py'
+alias dotfiles='cd ~/dotfiles'
 
 function order-caffeine-shot() {
   python3 $HOME/Documents/Hack/pyrepos/mouse/index.py
