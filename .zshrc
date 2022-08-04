@@ -15,12 +15,13 @@ source $ZSH/oh-my-zsh.sh
 
 # aliases
 alias sleep='pmset sleepnow'
-alias hr='cd ~/Documents/Hack'
-alias gs="git status"
+alias repos='cd ~/Documents/Hack'
 alias list-node-module-size="find . -name "node_modules" -type d -prune -print | xargs du -chs"
 alias delete-node-modules-in-working-dir='find . -name 'node_modules' -type d -prune -print -exec rm -rf '{}' \;'
 alias create-venv='echo "python3 -m venv <name_of_virtualenv>"'
 alias restart-terminal='exec zsh -l'
+alias gs="git status"
+alias ga="git add ."
 alias gc='git commit'
 alias gp='git push'
 alias print-function='echo "declare -f create <bash func>"'
