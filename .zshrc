@@ -22,6 +22,7 @@ alias delete-node-modules-in-working-dir='find . -name 'node_modules' -type d -p
 alias create-venv='echo "python3 -m venv <name_of_virtualenv>"'
 alias restart-terminal='exec zsh -l'
 alias gc='git commit'
+alias gp='git push'
 alias print-function='echo "declare -f create <bash func>"'
 alias create-sym-link='echo "mv <.file> .dotfiles THEN run ln -s ~/.dotfiles/<.file> ~/<.file>"'
 alias update-homebrew-file='brew bundle dump --force'
