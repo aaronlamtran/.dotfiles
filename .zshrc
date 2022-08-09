@@ -33,6 +33,7 @@ alias check-switch-transaction='/usr/bin/python3 $HOME/Documents/Hack/atm-track/
 alias dotfiles='cd ~/dotfiles'
 alias cp-pwd='pwd | pbcopy'
 alias cd-pasted-dir='cd $(pbpaste)'
+alias check-frenchie-waitlist='/usr/local/bin/python3 /Users/aarontran/Documents/Hack/frenchie-auto-email/auto_email.py'
 
 function order-caffeine-shot() {
   python3 $HOME/Documents/Hack/pyrepos/mouse/index.py
