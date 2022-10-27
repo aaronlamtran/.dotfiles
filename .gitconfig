@@ -6,7 +6,7 @@
 	user = Aaron Tran
 	email = aaronlamtran@gmail.com
 	editor = vim
-	autocrlf = input
+	autocrlf = false
 	safecrlf = true
 [user]
 	name = Aaron Tran

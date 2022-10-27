@@ -1,6 +1,9 @@
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/aarontran/.zprofile
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+# echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/aarontran/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
 
 export ZSH="/Users/aarontran/.oh-my-zsh"
 
@@ -34,6 +37,10 @@ alias dotfiles='cd ~/dotfiles'
 alias cp-pwd='pwd | pbcopy'
 alias cd-pasted-dir='cd $(pbpaste)'
 alias check-frenchie-waitlist='/usr/local/bin/python3 /Users/aarontran/Documents/Hack/frenchie-auto-email/auto_email.py'
+alias git-empty="echo 'git commit -–allow-empty -m <msg>'"
+alias heroku-logs='heroku logs --tail -a pure-meadow-37662'
+alias heroku-scale='echo "heroku ps:scale web=1"'
+alias heroku-list='heroku list'
 
 function order-caffeine-shot() {
   python3 $HOME/Documents/Hack/pyrepos/mouse/index.py
@@ -43,3 +50,6 @@ export PATHTOGITHUBAUTO="${HOME}/Documents/Hack/create-project-github-automation
 source $PATHTOGITHUBAUTO/.env
 source $PATHTOGITHUBAUTO/initialize.sh
 
+alias hb_ui='open http://localhost:8581/'
+
+# set +x
